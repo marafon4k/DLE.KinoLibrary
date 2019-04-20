@@ -1,0 +1,263 @@
+/*  Adaptive http://kinomin.ru/  */
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+    .shortstory{
+      width: 14.2857%;
+    }
+    .hblock .shortstory:nth-of-type(n+8){
+      display: none;
+    }
+    .fleft, .fright{
+      float: left;
+      width: 25%;
+    }
+    .fmid{
+      width: 50%;
+      float: left;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width:1400px) {
+  .shortstory{
+    width: 16.66666%;
+  }
+  .hblock .shortstory:nth-of-type(n+7){
+    display: none;
+  }
+}
+@media screen and (min-width: 1020px) and (max-width:1200px){
+  .shortstory{
+    width: 20%;
+  }
+  .hblock .shortstory:nth-of-type(n+6){
+      display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 1020px){
+  .shortstory{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1400px){  
+  .fleft{
+    width:30%;
+    margin-bottom: 20px;
+  }
+  .fmid{
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .fright{
+    float: none;
+    width: 100%;
+    clear: both;
+    border-top: 1px solid #202020;
+    padding: 0 20px;
+  }
+  body, body a, .tagscloud, .tagscloud a, .full-story, .full-story a, .comment_post, .comment_post a, .post_content, .post_content a, .searchform, .footer{
+    font-size: 14px;
+  }
+  .post_title, .post_title h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .orig_title{
+    font-size: 20px;
+  }
+  .menu-header{
+    font-size: 20px;
+  }
+  .menu-title a{
+    font-size: 18px;
+  }
+  .movie-info{
+    line-height: 25px;
+  }
+  .movie-info table td{
+    padding: 0 20px 10px 0;
+  }
+  .actors{
+    height: 32px;
+  }
+  .poster-qulabel{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .menu{
+    width:90%;
+    margin-left: -45%;
+  }
+}
+@media screen and (max-width: 1020px){  
+  .movie-info span.rki{
+    border-width:0;
+  }
+  .main1000, .searchtable, .static_page{
+    width:100% !important;
+    padding: 20px 20px 0 20px;
+  }
+  .searchblock{
+    width:200px;
+  }
+  .rki-br{
+    display: block;
+  }
+}
+@media screen and (max-width: 840px){
+  .header{
+    height: 120px;
+  }
+  .container{
+    padding-top:120px;
+  }
+  .logo{
+    float: none;
+    margin: 0 auto;
+  }
+  .logo img{
+    margin: 0 auto
+  }
+  .fleft, .fmid{
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+  .poster, .movie-info{
+    float: left;
+  }
+  .poster{
+    width: 40%;
+  }
+  .movie-info{
+    width: 60%;
+  }  
+  .rki-br{
+    display: none;
+  }
+  .movie-info span.rki{
+    border-width:1px;
+  }
+  .social-likes, .post_title, .post_content{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width:660px) {    
+  .live_link, .fav_link{
+    display: none;
+  }
+  .rating-count{
+    width: 30%;
+  }
+  .rating-plus, .rating-minus{
+    width: 35%;
+  }
+  .shortstory{
+    width:50%;
+  }
+  .hblock{
+    margin-bottom: 40px;
+  }
+  .nav_ext, .about, .social_menu{
+    display: none;
+  } 
+  .copyrights, .footer_links{
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }   
+  .ui-col{
+    width: 100%;
+    float: none;
+  }
+    .find_rel{
+      margin: 15px 0 0 0;
+    }
+    .images_box img{
+      width: 33.33333%;
+    }
+    .post_title{
+      font-size: 30px;
+      line-height: 34px;
+    }
+    h1 {font-size:20px;line-height:22px;}
+    h2 {font-size:18px;line-height:20px;}
+    h3, h4 {font-size:16px;}
+    .post_content, .post_content a{
+      font-size: 14px;
+    }
+    .pm_head{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .full-story, .tagscloud, .full-story a{
+      font-size: 14px;
+    }
+    .related_news_post{
+      width: 150px;
+      height: 150px;
+    }
+    .related_news_block .custom_top_title{
+      padding: 10px;
+      text-transform: none;
+      font-size: 12px;
+      white-space: normal;
+      line-height: 14px;
+    }
+    .shortstory3{
+      width: 260px;
+    }
+    .shortstory3:nth-of-type(2n+1){
+      margin-left: 0;
+    }
+    
+    .short_info, .qulabel, .rating-scores{
+          display:none;
+      }
+      .header{
+          position:relative;
+      }
+      .container{
+          padding-top:0px;
+      }
+}
+  @media screen and (max-width: 540px){
+
+    .shortstory_left{
+      height: 320px;
+    }    
+    .social-likes{
+      display: none;
+    }
+    .pm_head{
+      font-size: 14px;
+    }
+    .pmlinks a{
+      float: none;
+      border-left: 0;
+      width: 100%;
+    }
+    .poster, .movie-info{
+      width: 100%;
+      float: none;
+      margin-bottom: 20px;
+    }
+    .menu_button, .live_link{
+      text-indent: -999px;
+      width: 60px;
+    }
+    .menu_button{
+      margin-left: -20px;
+    }
+    .login_btn{
+      margin-right: -20px;
+    }
+    .menu_button:before, .live_link:before{
+      left: 20px;
+    }
+    .login_block{
+      width: 280px;
+      margin-left: -140px;
+    }
+    .searchblock{
+      width: 150px;
+    }
+  }

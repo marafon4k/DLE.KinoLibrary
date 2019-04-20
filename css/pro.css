@@ -1,0 +1,340 @@
+.rocket {
+    height: 400px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    background: url(https://filmix.me/templates/Filmix/media/img/rocket.png) no-repeat top center;
+    background-size: 100%;
+}
+
+.rocket .boxForCentration {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: inherit;
+    padding-top: 80px;
+}
+
+.boxForCentration {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.rocket .rocketBox {
+    width: 50%;
+    float: right;
+}
+
+.rocket .rocketBox .beProEasy {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.rocket .rocketBox .oneClick {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-bottom: 35px;
+    letter-spacing: -0.4px;
+}
+
+.rocket .rocketBox .buttons {
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.buttons {
+    bottom: 0;
+    text-align: left;
+}
+
+.rocket .rocketBox .buttons .buyVip.pro-border {
+    margin-right: 20px;
+    border-color: #ff293d;
+}
+
+.rocket .rocketBox .buttons .buyVip {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px 21px;
+    letter-spacing: 1.1px;
+    border: 2px solid #ffffff;
+}
+
+.buttons .buyVip {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    transition: .3s;
+    color: #75c71b;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 24px;
+    display: inline-block;
+    border: 2px solid #b9e38c;
+    -webkit-font-smoothing: antialiased;
+}
+
+.rocket .rocketBox .buttons .buyVip.pro-plus-border {
+    margin-left: 20px;
+    border-color: #75c71b;
+}
+
+.rocket .rocketBox .buttons .buyVip {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px 21px;
+    letter-spacing: 1.1px;
+    border: 2px solid #ffffff;
+}
+
+.buttons .buyVip {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    transition: .3s;
+    color: #75c71b;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 24px;
+    display: inline-block;
+    border: 2px solid #b9e38c;
+    -webkit-font-smoothing: antialiased;
+}
+
+.opportunities {
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.boxForCentration {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.withSpan {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+
+.withSpan .descriptionImage.descriptionRed {
+    background: #ff293d;
+}
+
+.withSpan .descriptionImage {
+    color: #ffffff;
+    margin: 0 19px;
+    padding: 6px 10px;
+    background: #75c71b;
+    border-radius: 10px;
+}
+
+.opportunities .advantages {
+    font-size: 0;
+}
+
+.opportunities .advantages .advantage {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 22%;
+    color: #535865;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 25px;
+    display: inline-block;
+    padding: 110px 15px 0;
+}
+
+.opportunities .advantages .advantage.advantageAds:before {
+    background: url('../images/calendar.svg') no-repeat 0 0;
+    background-size: 65px 61px;
+    width: 65px;
+    height: 61px;
+    vertical-align: middle;
+    top: 30px;
+}
+
+.opportunities .advantages .advantage.advantageScreenPro:before {
+    top: 31px;
+    background: url('../images/notification.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+}
+
+.opportunities .advantages .advantage.advantageMobile:before {
+    top: 31px;
+    background: url('../images/update.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+}
+
+.opportunities .advantages .advantage.advantageProIconPro:before {
+    background: url('../images/page.svg') no-repeat 0 0;
+    background-size: 53px 63px;
+    width: 53px;
+    height: 63px;
+    vertical-align: middle;
+    top: 30px;
+}
+
+.opportunities .advantages .advantage.advantageOnlineHide:before {
+    background: url('../images/emoji.svg') no-repeat 0 0;
+    background-size: 68px 61px;
+    width: 68px;
+    height: 61px;
+    vertical-align: middle;
+    top: 30px;
+}
+
+.opportunities .advantages .advantage.advantageYourBackground:before {
+    background: url('../images/invite.svg') no-repeat 0 0;
+    background-size: 59px 64px;
+    width: 59px;
+    height: 64px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage.advantageRocket:before {
+    background: url('../images/crown.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage:before {
+    left: 0;
+    right: 0;
+    top: 37px;
+    content: '';
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+}
+.opportunities .advantages .advantage.advantage4k:before {
+    background: url('../images/4k.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage:before {
+    left: 0;
+    right: 0;
+    top: 37px;
+    content: '';
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+}
+.opportunities .advantages .advantage.advantageTV:before {
+    background: url('../images/tv.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage:before {
+    left: 0;
+    right: 0;
+    top: 37px;
+    content: '';
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+}
+.opportunities .advantages .advantage.advantageDownload:before {
+    background: url('../images/download.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage:before {
+    left: 0;
+    right: 0;
+    top: 37px;
+    content: '';
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+}
+.opportunities .advantages .advantage.advantageAccess:before {
+    background: url('../images/access.svg') no-repeat 0 0;
+    background-size: 64px 62px;
+    width: 64px;
+    height: 62px;
+    vertical-align: middle;
+    top: 29px;
+}
+
+.opportunities .advantages .advantage:before {
+    left: 0;
+    right: 0;
+    top: 37px;
+    content: '';
+    z-index: 10;
+    margin: auto;
+    position: absolute;
+}

@@ -1,0 +1,665 @@
+.slider-movies {
+	position: relative;
+}
+.slider-movies .slider-movies-header {
+	margin-bottom: 7px;
+}
+.slider-movies .pull-btn-group.active {
+	display: block;
+}
+.slider-movies .pull-btn-group {
+	display: none;
+}
+.pull-right {
+	float: right !important;
+}
+.pull-right {
+	float: right;
+}
+.btn-group {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.slider-movies .btn-group+.btn-group--slider {
+	margin-left: 20px;
+}
+.slider-movies .btn-group--slider {
+	margin-left: 30px;
+}
+.slider-movies .slider-movies-header .slider-movies-title {
+	font: 24px/1 "Lato", sans-serif;
+    font-weight: lighter;
+}
+.slider-movies .slider-series-body {
+	position: relative;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.slider-movies .slider-series-body .onvix-slider {
+	height: 304px;
+    padding: 17px 0;
+    margin-top: 27px;
+    border: 1px solid #202020;
+}
+
+.onvix-slider {
+	position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.onvix-slider:before, .onvix-slider:after {
+	content: " ";
+    display: table;
+}
+
+.onvix-slider .onvix-slider-scroll {
+	position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    height: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item {
+	width: 313px;
+    height: 304px;
+}
+
+.onvix-slider .onvix-slider-item {
+	float: left;
+    position: relative;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item:before {
+	content: " ";
+    position: absolute;
+    right: -37px;
+    top: 15px;
+    bottom: 40px;
+    width: 1px;
+    background: #1f1f1f;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .onvix-slider-item-static {
+	width: 313px;
+    height: 304px;
+    padding: 4px 37px;
+}
+
+.onvix-slider .onvix-slider-item-static {
+	overflow: hidden;
+    position: relative;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item dl {
+	margin: 0;
+    padding: 0;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item dd {
+	margin: 0;
+    position: relative;
+    padding: 15px 21px 15px;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--icon {
+	top: 16px;
+    left: 0;
+    position: absolute;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item dd a {
+	padding: 0;
+}
+
+.checkbox--custom {
+	line-height: 1;
+    text-align: left;
+}
+
+.checkbox--custom input[type="checkbox"] {
+	display: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	width: auto;
+    height: auto;
+    padding: 0;
+    margin: 3px 5px 5px 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+    padding: 0;
+}
+
+.checkbox--custom label {
+	display: block;
+    cursor: pointer;
+    color: #CFCFCF;
+}
+
+.checkbox--custom .icons--checkbox {
+	background-position: -3px -84px;
+    margin-top: -3px;
+    margin-right: 9px;
+}
+
+.icons--checkbox {
+	background-position: -3px -107px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons, .icons--slider-dot, .icons--plus, .icons--cross, .icons--circle, .icons--triangle, .icons--checkbox, .icons--radio, .icons--close, .icons--close-alpha, .icons--close-black, .icons--search, .icons--subscription, .icons--notification, .icons--sub-plus, .icons--checked, .icons--dot, .icons--play, .icons--play-light, .icons--favorite, .icons--list-add, .icons--list-favorite, .icons--list-timer, .icons--list-eye, .icons--delete, .icons--left, .icons--right, .icons-like, .icons-dislike, .icons-comments, .icons-flag, .icons-ulike, .icons-udislike, .icons-ucomments, .icon-like, .icon-modal-left, .icon-modal-right, .icon--minimize, .icons-right-transparent, .icons--upload, .icons--logo, .icons--r-big, .icons--r-light, .icons--paid, .icons--bonus, .icons--replay, .icons--dropdown::after, .icons--dropdown::before, .icons--droptop, .icons--payments, .icons--settings, .icons-notice-play, .icons-notice-comment, .icons-notice-checked, .icons-notice-view, .icons--circle-plus, .icons--circle-plus-active, .icons--circle-check, .icons--circle-close {
+	vertical-align: middle;
+    line-height: 2;
+    display: inline-block;
+    background: no-repeat;
+    background-image: url(../images/iconsSerials.png)
+}
+
+/*
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--panel {
+	padding-left: 35px;
+}
+*/
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--string {
+	margin-bottom: 10px;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--string, .slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--gray {
+	white-space: nowrap;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--string .series--text {
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item .series--gray {
+	font-size: 12px;
+    color: #aaa;
+}
+
+
+.btn-group>.btn:first-child:not(:last-child), .btn-group>.btn--default-style:first-child:not(:last-child), .btn-group>.btn--default:first-child:not(:last-child), .btn-group>.btn--alpha-style:first-child:not(:last-child), .tile-while .btn-group>.btn--alpha-orange:first-child:not(:last-child), .btn-group>.btn--alpha:first-child:not(:last-child), .btn-group>.btn--link:first-child:not(:last-child), .btn-group>.btn--top:first-child:not(:last-child), .btn-group>.btn--light:first-child:not(:last-child), .btn-group>.btn--azure:first-child:not(:last-child), .btn-group>.btn-sm--azure:first-child:not(:last-child), .btn-group>.btn--sable:first-child:not(:last-child), .btn-group>.btn-sm--sable:first-child:not(:last-child), .btn-group>.btn--blanch:first-child:not(:last-child), .btn-group>.btn-sm--blanch:first-child:not(:last-child), .btn-group>.btn--orange:first-child:not(:last-child), .btn-group>.btn-sm--orange:first-child:not(:last-child), .btn-group>.btn-sm--link:first-child:not(:last-child) {
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group>.btn:first-child, .tile-raw:not(:hover) .tile-while.active .btn-group>.btn--alpha-orange:first-child, .btn-group>.btn--default-style:first-child, .btn-group>.btn--default:first-child, .btn-group>.btn--alpha-style:first-child, .tile-while .btn-group>.btn--alpha-orange:first-child, .btn-group>.btn--alpha:first-child, .btn-group>.btn--link:first-child, .btn-group>.btn--top:first-child, .btn-group>.btn--light:first-child, .btn-group>.btn--azure:first-child, .btn-group>.btn-sm--azure:first-child, .btn-group>.btn--sable:first-child, .btn-group>.btn-sm--sable:first-child, .btn-group>.btn--blanch:first-child, .btn-group>.btn-sm--blanch:first-child, .btn-group>.btn--orange:first-child, .btn-group>.btn-sm--orange:first-child, .btn-group>.btn-sm--link:first-child {
+	margin: left;
+}
+
+.btn--link-style, .btn-sm--link {
+	color: #aaaaaa;
+    background: transparent;
+}
+
+.btn--link-small-style, .btn-sm--link {
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    padding: 7px 10px;
+}
+
+.btn-group>.btn, .tile-raw:not(:hover) .tile-while.active .btn-group>.btn--alpha-orange, .btn-group>.btn--default-style, .btn-group>.btn--default, .btn-group>.btn--alpha-style, .tile-while .btn-group>.btn--alpha-orange, .btn-group>.btn--alpha, .btn-group>.btn--link, .btn-group>.btn--top, .btn-group>.btn--light, .btn-group>.btn--azure, .btn-group>.btn-sm--azure, .btn-group>.btn--sable, .btn-group>.btn-sm--sable, .btn-group>.btn--blanch, .btn-group>.btn-sm--blanch, .btn-group>.btn--orange, .btn-group>.btn-sm--orange, .btn-group>.btn-sm--link {
+	position: relative;
+    float: left;
+}
+
+.btn--transition, .btn--default, .btn--alpha, .btn--light, .btn--azure, .btn-sm--azure, .btn--sable, .btn-sm--sable, .btn--blanch, .btn-sm--blanch, .btn--orange, .btn-sm--orange, .btn-sm--link {
+	webkit-transition: color ease-out 0.1s, background-color ease-out 0.1s, border-color ease-out 0.1s;
+    -o-transition: color ease-out 0.1s, background-color ease-out 0.1s, border-color ease-out 0.1s;
+    transition: color ease-out 0.1s, background-color ease-out 0.1s, border-color ease-out 0.1s;
+}
+
+.btn, .tile-while:hover .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .btn--default-style, .btn--default, .btn--alpha-style, .tile-while .btn--alpha-orange, .btn--alpha, .btn--link, .btn--top, .btn--light, .btn--azure, .btn-sm--azure, .btn--sable, .btn-sm--sable, .btn--blanch, .btn-sm--blanch, .btn--orange, .btn-sm--orange, .btn-sm--link {
+	display: inline-block;
+    margin-bottom: 0;
+    /*font-weight: bold;*/
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    /*padding: 7px 25px 7px;*/
+    /*font-size: 16px;*/
+    /*line-height: 2;*/
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn--link-style:hover, .btn-sm--link:hover, .btn--link-style.active, .active.btn-sm--link, .input-file:hover .btn--link-style, .input-file:hover .btn-sm--link {
+	color: #fff;
+}
+
+.btn:active, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange:active, .btn--default-style:active, .btn--default:active, .btn--alpha-style:active, .tile-while .btn--alpha-orange:active, .btn--alpha:active, .btn--link:active, .btn--top:active, .btn--light:active, .btn--azure:active, .btn-sm--azure:active, .btn--sable:active, .btn-sm--sable:active, .btn--blanch:active, .btn-sm--blanch:active, .btn--orange:active, .btn-sm--orange:active, .btn-sm--link:active, .btn.active, .tile-raw:not(:hover) .tile-while.active .active.btn--alpha-orange, .active.btn--default-style, .active.btn--default, .active.btn--alpha-style, .tile-while .active.btn--alpha-orange, .active.btn--alpha, .active.btn--link, .active.btn--top, .active.btn--light, .active.btn--azure, .active.btn-sm--azure, .active.btn--sable, .active.btn-sm--sable, .active.btn--blanch, .active.btn-sm--blanch, .active.btn--orange, .active.btn-sm--orange, .active.btn-sm--link {
+	outline: 0;
+    background-image: none;
+}
+
+.slider-movies .btn-group--slider .btn, .slider-movies .btn-group--slider .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .slider-movies .btn-group--slider .btn--alpha-orange, .slider-movies .btn-group--slider .btn--default-style, .slider-movies .btn-group--slider .btn--default, .slider-movies .btn-group--slider .btn--alpha-style, .slider-movies .btn-group--slider .tile-while .btn--alpha-orange, .tile-while .slider-movies .btn-group--slider .btn--alpha-orange, .slider-movies .btn-group--slider .btn--alpha, .slider-movies .btn-group--slider .btn--link, .slider-movies .btn-group--slider .btn--top, .slider-movies .btn-group--slider .btn--light, .slider-movies .btn-group--slider .btn--azure, .slider-movies .btn-group--slider .btn-sm--azure, .slider-movies .btn-group--slider .btn--sable, .slider-movies .btn-group--slider .btn-sm--sable, .slider-movies .btn-group--slider .btn--blanch, .slider-movies .btn-group--slider .btn-sm--blanch, .slider-movies .btn-group--slider .btn--orange, .slider-movies .btn-group--slider .btn-sm--orange, .slider-movies .btn-group--slider .btn-sm--link {
+	width: 32px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.btn--light {
+	font: 16px/1 "Lato", sans-serif;
+    color: #fff;
+    background-color: transparent;
+    border-color: #333;
+    padding: 6px 14px 7px;
+}
+
+[disabled] .icon-modal-left {
+	background-position: -27px -633px;
+}
+
+.btn--light .icon-modal-left{
+	background-position: -3px -633px;
+}
+
+.icon-modal-left {
+	background-position: -27px -633px;
+    width: 10px;
+    height: 15px;
+}
+
+.btn--light .icon-modal-right {
+	background-position: -14px -633px
+}
+
+.icon-modal-right {
+	background-position: -38px -633px;
+    width: 10px;
+    height: 15px;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-item dd a:hover .series--text {
+	    color: #ffc000;
+}
+
+.slider-movies .slider-series-body .onvix-slider .onvix-slider-scroll-wrap {
+	height: 329px;
+}
+
+.onvix-slider .onvix-slider-scroll-wrap {
+	position: relative;
+    overflow: hidden;
+    overflow-x: scroll;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.btn--default-style:last-child:not(:first-child), .btn-group>.btn--default:last-child:not(:first-child), .btn-group>.btn--alpha-style:last-child:not(:first-child), .tile-while .btn-group>.btn--alpha-orange:last-child:not(:first-child), .btn-group>.btn--alpha:last-child:not(:first-child), .btn-group>.btn--link:last-child:not(:first-child), .btn-group>.btn--top:last-child:not(:first-child), .btn-group>.btn--light:last-child:not(:first-child), .btn-group>.btn--azure:last-child:not(:first-child), .btn-group>.btn-sm--azure:last-child:not(:first-child), .btn-group>.btn--sable:last-child:not(:first-child), .btn-group>.btn-sm--sable:last-child:not(:first-child), .btn-group>.btn--blanch:last-child:not(:first-child), .btn-group>.btn-sm--blanch:last-child:not(:first-child), .btn-group>.btn--orange:last-child:not(:first-child), .btn-group>.btn-sm--orange:last-child:not(:first-child), .btn-group>.btn-sm--link:last-child:not(:first-child) {
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group .btn+.btn, .btn-group .tile-while:hover .btn--alpha-orange+.btn, .tile-while:hover .btn-group .btn--alpha-orange+.btn, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn, .btn-group .btn--default-style+.btn, .btn-group .btn--default+.btn, .btn-group .btn--alpha-style+.btn, .btn-group .tile-while .btn--alpha-orange+.btn, .tile-while .btn-group .btn--alpha-orange+.btn, .btn-group .btn--alpha+.btn, .btn-group .btn--link+.btn, .btn-group .btn--top+.btn, .btn-group .btn--light+.btn, .btn-group .btn--azure+.btn, .btn-group .btn-sm--azure+.btn, .btn-group .btn--sable+.btn, .btn-group .btn-sm--sable+.btn, .btn-group .btn--blanch+.btn, .btn-group .btn-sm--blanch+.btn, .btn-group .btn--orange+.btn, .btn-group .btn-sm--orange+.btn, .btn-group .btn-sm--link+.btn, .btn-group .tile-while:hover .btn+.btn--alpha-orange, .tile-while:hover .btn-group .btn+.btn--alpha-orange, .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-while:hover .btn--default-style+.btn--alpha-orange, .tile-while:hover .btn-group .btn--default-style+.btn--alpha-orange, .btn-group .tile-while:hover .btn--default+.btn--alpha-orange, .tile-while:hover .btn-group .btn--default+.btn--alpha-orange, .btn-group .tile-while:hover .btn--alpha-style+.btn--alpha-orange, .tile-while:hover .btn-group .btn--alpha-style+.btn--alpha-orange, .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-while:hover .btn--alpha+.btn--alpha-orange, .tile-while:hover .btn-group .btn--alpha+.btn--alpha-orange, .btn-group .tile-while:hover .btn--link+.btn--alpha-orange, .tile-while:hover .btn-group .btn--link+.btn--alpha-orange, .btn-group .tile-while:hover .btn--top+.btn--alpha-orange, .tile-while:hover .btn-group .btn--top+.btn--alpha-orange, .btn-group .tile-while:hover .btn--light+.btn--alpha-orange, .tile-while:hover .btn-group .btn--light+.btn--alpha-orange, .btn-group .tile-while:hover .btn--azure+.btn--alpha-orange, .tile-while:hover .btn-group .btn--azure+.btn--alpha-orange, .btn-group .tile-while:hover .btn-sm--azure+.btn--alpha-orange, .tile-while:hover .btn-group .btn-sm--azure+.btn--alpha-orange, .btn-group .tile-while:hover .btn--sable+.btn--alpha-orange, .tile-while:hover .btn-group .btn--sable+.btn--alpha-orange, .btn-group .tile-while:hover .btn-sm--sable+.btn--alpha-orange, .tile-while:hover .btn-group .btn-sm--sable+.btn--alpha-orange, .btn-group .tile-while:hover .btn--blanch+.btn--alpha-orange, .tile-while:hover .btn-group .btn--blanch+.btn--alpha-orange, .btn-group .tile-while:hover .btn-sm--blanch+.btn--alpha-orange, .tile-while:hover .btn-group .btn-sm--blanch+.btn--alpha-orange, .btn-group .tile-while:hover .btn--orange+.btn--alpha-orange, .tile-while:hover .btn-group .btn--orange+.btn--alpha-orange, .btn-group .tile-while:hover .btn-sm--orange+.btn--alpha-orange, .tile-while:hover .btn-group .btn-sm--orange+.btn--alpha-orange, .btn-group .tile-while:hover .btn-sm--link+.btn--alpha-orange, .tile-while:hover .btn-group .btn-sm--link+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn+.btn--alpha-orange, .btn-group .tile-while:hover .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--default-style+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--default-style+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--default+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--default+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-style+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-style+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .btn-group .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--link+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--link+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--top+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--top+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--light+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--light+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--azure+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--azure+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn-sm--azure+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn-sm--azure+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--sable+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--sable+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn-sm--sable+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn-sm--sable+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--blanch+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--blanch+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn-sm--blanch+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn-sm--blanch+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn-sm--orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn-sm--orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn-sm--link+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn-sm--link+.btn--alpha-orange, .btn-group .btn+.btn--default-style, .btn-group .tile-while:hover .btn--alpha-orange+.btn--default-style, .tile-while:hover .btn-group .btn--alpha-orange+.btn--default-style, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--default-style, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--default-style, .btn-group .btn--default-style+.btn--default-style, .btn-group .btn--default+.btn--default-style, .btn-group .btn--alpha-style+.btn--default-style, .btn-group .tile-while .btn--alpha-orange+.btn--default-style, .tile-while .btn-group .btn--alpha-orange+.btn--default-style, .btn-group .btn--alpha+.btn--default-style, .btn-group .btn--link+.btn--default-style, .btn-group .btn--top+.btn--default-style, .btn-group .btn--light+.btn--default-style, .btn-group .btn--azure+.btn--default-style, .btn-group .btn-sm--azure+.btn--default-style, .btn-group .btn--sable+.btn--default-style, .btn-group .btn-sm--sable+.btn--default-style, .btn-group .btn--blanch+.btn--default-style, .btn-group .btn-sm--blanch+.btn--default-style, .btn-group .btn--orange+.btn--default-style, .btn-group .btn-sm--orange+.btn--default-style, .btn-group .btn-sm--link+.btn--default-style, .btn-group .btn+.btn--default, .btn-group .tile-while:hover .btn--alpha-orange+.btn--default, .tile-while:hover .btn-group .btn--alpha-orange+.btn--default, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--default, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--default, .btn-group .btn--default-style+.btn--default, .btn-group .btn--default+.btn--default, .btn-group .btn--alpha-style+.btn--default, .btn-group .tile-while .btn--alpha-orange+.btn--default, .tile-while .btn-group .btn--alpha-orange+.btn--default, .btn-group .btn--alpha+.btn--default, .btn-group .btn--link+.btn--default, .btn-group .btn--top+.btn--default, .btn-group .btn--light+.btn--default, .btn-group .btn--azure+.btn--default, .btn-group .btn-sm--azure+.btn--default, .btn-group .btn--sable+.btn--default, .btn-group .btn-sm--sable+.btn--default, .btn-group .btn--blanch+.btn--default, .btn-group .btn-sm--blanch+.btn--default, .btn-group .btn--orange+.btn--default, .btn-group .btn-sm--orange+.btn--default, .btn-group .btn-sm--link+.btn--default, .btn-group .btn+.btn--alpha-style, .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-style, .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha-style, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-style, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha-style, .btn-group .btn--default-style+.btn--alpha-style, .btn-group .btn--default+.btn--alpha-style, .btn-group .btn--alpha-style+.btn--alpha-style, .btn-group .tile-while .btn--alpha-orange+.btn--alpha-style, .tile-while .btn-group .btn--alpha-orange+.btn--alpha-style, .btn-group .btn--alpha+.btn--alpha-style, .btn-group .btn--link+.btn--alpha-style, .btn-group .btn--top+.btn--alpha-style, .btn-group .btn--light+.btn--alpha-style, .btn-group .btn--azure+.btn--alpha-style, .btn-group .btn-sm--azure+.btn--alpha-style, .btn-group .btn--sable+.btn--alpha-style, .btn-group .btn-sm--sable+.btn--alpha-style, .btn-group .btn--blanch+.btn--alpha-style, .btn-group .btn-sm--blanch+.btn--alpha-style, .btn-group .btn--orange+.btn--alpha-style, .btn-group .btn-sm--orange+.btn--alpha-style, .btn-group .btn-sm--link+.btn--alpha-style, .btn-group .tile-while .btn+.btn--alpha-orange, .tile-while .btn-group .btn+.btn--alpha-orange, .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha-orange, .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-while .btn--default-style+.btn--alpha-orange, .tile-while .btn-group .btn--default-style+.btn--alpha-orange, .btn-group .tile-while .btn--default+.btn--alpha-orange, .tile-while .btn-group .btn--default+.btn--alpha-orange, .btn-group .tile-while .btn--alpha-style+.btn--alpha-orange, .tile-while .btn-group .btn--alpha-style+.btn--alpha-orange, .btn-group .tile-while .btn--alpha-orange+.btn--alpha-orange, .tile-while .btn-group .btn--alpha-orange+.btn--alpha-orange, .btn-group .tile-while .btn--alpha+.btn--alpha-orange, .tile-while .btn-group .btn--alpha+.btn--alpha-orange, .btn-group .tile-while .btn--link+.btn--alpha-orange, .tile-while .btn-group .btn--link+.btn--alpha-orange, .btn-group .tile-while .btn--top+.btn--alpha-orange, .tile-while .btn-group .btn--top+.btn--alpha-orange, .btn-group .tile-while .btn--light+.btn--alpha-orange, .tile-while .btn-group .btn--light+.btn--alpha-orange, .btn-group .tile-while .btn--azure+.btn--alpha-orange, .tile-while .btn-group .btn--azure+.btn--alpha-orange, .btn-group .tile-while .btn-sm--azure+.btn--alpha-orange, .tile-while .btn-group .btn-sm--azure+.btn--alpha-orange, .btn-group .tile-while .btn--sable+.btn--alpha-orange, .tile-while .btn-group .btn--sable+.btn--alpha-orange, .btn-group .tile-while .btn-sm--sable+.btn--alpha-orange, .tile-while .btn-group .btn-sm--sable+.btn--alpha-orange, .btn-group .tile-while .btn--blanch+.btn--alpha-orange, .tile-while .btn-group .btn--blanch+.btn--alpha-orange, .btn-group .tile-while .btn-sm--blanch+.btn--alpha-orange, .tile-while .btn-group .btn-sm--blanch+.btn--alpha-orange, .btn-group .tile-while .btn--orange+.btn--alpha-orange, .tile-while .btn-group .btn--orange+.btn--alpha-orange, .btn-group .tile-while .btn-sm--orange+.btn--alpha-orange, .tile-while .btn-group .btn-sm--orange+.btn--alpha-orange, .btn-group .tile-while .btn-sm--link+.btn--alpha-orange, .tile-while .btn-group .btn-sm--link+.btn--alpha-orange, .btn-group .btn+.btn--alpha, .btn-group .tile-while:hover .btn--alpha-orange+.btn--alpha, .tile-while:hover .btn-group .btn--alpha-orange+.btn--alpha, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--alpha, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--alpha, .btn-group .btn--default-style+.btn--alpha, .btn-group .btn--default+.btn--alpha, .btn-group .btn--alpha-style+.btn--alpha, .btn-group .tile-while .btn--alpha-orange+.btn--alpha, .tile-while .btn-group .btn--alpha-orange+.btn--alpha, .btn-group .btn--alpha+.btn--alpha, .btn-group .btn--link+.btn--alpha, .btn-group .btn--top+.btn--alpha, .btn-group .btn--light+.btn--alpha, .btn-group .btn--azure+.btn--alpha, .btn-group .btn-sm--azure+.btn--alpha, .btn-group .btn--sable+.btn--alpha, .btn-group .btn-sm--sable+.btn--alpha, .btn-group .btn--blanch+.btn--alpha, .btn-group .btn-sm--blanch+.btn--alpha, .btn-group .btn--orange+.btn--alpha, .btn-group .btn-sm--orange+.btn--alpha, .btn-group .btn-sm--link+.btn--alpha, .btn-group .btn+.btn--link, .btn-group .tile-while:hover .btn--alpha-orange+.btn--link, .tile-while:hover .btn-group .btn--alpha-orange+.btn--link, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--link, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--link, .btn-group .btn--default-style+.btn--link, .btn-group .btn--default+.btn--link, .btn-group .btn--alpha-style+.btn--link, .btn-group .tile-while .btn--alpha-orange+.btn--link, .tile-while .btn-group .btn--alpha-orange+.btn--link, .btn-group .btn--alpha+.btn--link, .btn-group .btn--link+.btn--link, .btn-group .btn--top+.btn--link, .btn-group .btn--light+.btn--link, .btn-group .btn--azure+.btn--link, .btn-group .btn-sm--azure+.btn--link, .btn-group .btn--sable+.btn--link, .btn-group .btn-sm--sable+.btn--link, .btn-group .btn--blanch+.btn--link, .btn-group .btn-sm--blanch+.btn--link, .btn-group .btn--orange+.btn--link, .btn-group .btn-sm--orange+.btn--link, .btn-group .btn-sm--link+.btn--link, .btn-group .btn+.btn--top, .btn-group .tile-while:hover .btn--alpha-orange+.btn--top, .tile-while:hover .btn-group .btn--alpha-orange+.btn--top, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--top, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--top, .btn-group .btn--default-style+.btn--top, .btn-group .btn--default+.btn--top, .btn-group .btn--alpha-style+.btn--top, .btn-group .tile-while .btn--alpha-orange+.btn--top, .tile-while .btn-group .btn--alpha-orange+.btn--top, .btn-group .btn--alpha+.btn--top, .btn-group .btn--link+.btn--top, .btn-group .btn--top+.btn--top, .btn-group .btn--light+.btn--top, .btn-group .btn--azure+.btn--top, .btn-group .btn-sm--azure+.btn--top, .btn-group .btn--sable+.btn--top, .btn-group .btn-sm--sable+.btn--top, .btn-group .btn--blanch+.btn--top, .btn-group .btn-sm--blanch+.btn--top, .btn-group .btn--orange+.btn--top, .btn-group .btn-sm--orange+.btn--top, .btn-group .btn-sm--link+.btn--top, .btn-group .btn+.btn--light, .btn-group .tile-while:hover .btn--alpha-orange+.btn--light, .tile-while:hover .btn-group .btn--alpha-orange+.btn--light, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--light, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--light, .btn-group .btn--default-style+.btn--light, .btn-group .btn--default+.btn--light, .btn-group .btn--alpha-style+.btn--light, .btn-group .tile-while .btn--alpha-orange+.btn--light, .tile-while .btn-group .btn--alpha-orange+.btn--light, .btn-group .btn--alpha+.btn--light, .btn-group .btn--link+.btn--light, .btn-group .btn--top+.btn--light, .btn-group .btn--light+.btn--light, .btn-group .btn--azure+.btn--light, .btn-group .btn-sm--azure+.btn--light, .btn-group .btn--sable+.btn--light, .btn-group .btn-sm--sable+.btn--light, .btn-group .btn--blanch+.btn--light, .btn-group .btn-sm--blanch+.btn--light, .btn-group .btn--orange+.btn--light, .btn-group .btn-sm--orange+.btn--light, .btn-group .btn-sm--link+.btn--light, .btn-group .btn+.btn--azure, .btn-group .tile-while:hover .btn--alpha-orange+.btn--azure, .tile-while:hover .btn-group .btn--alpha-orange+.btn--azure, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--azure, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--azure, .btn-group .btn--default-style+.btn--azure, .btn-group .btn--default+.btn--azure, .btn-group .btn--alpha-style+.btn--azure, .btn-group .tile-while .btn--alpha-orange+.btn--azure, .tile-while .btn-group .btn--alpha-orange+.btn--azure, .btn-group .btn--alpha+.btn--azure, .btn-group .btn--link+.btn--azure, .btn-group .btn--top+.btn--azure, .btn-group .btn--light+.btn--azure, .btn-group .btn--azure+.btn--azure, .btn-group .btn-sm--azure+.btn--azure, .btn-group .btn--sable+.btn--azure, .btn-group .btn-sm--sable+.btn--azure, .btn-group .btn--blanch+.btn--azure, .btn-group .btn-sm--blanch+.btn--azure, .btn-group .btn--orange+.btn--azure, .btn-group .btn-sm--orange+.btn--azure, .btn-group .btn-sm--link+.btn--azure, .btn-group .btn+.btn-sm--azure, .btn-group .tile-while:hover .btn--alpha-orange+.btn-sm--azure, .tile-while:hover .btn-group .btn--alpha-orange+.btn-sm--azure, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn-sm--azure, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn-sm--azure, .btn-group .btn--default-style+.btn-sm--azure, .btn-group .btn--default+.btn-sm--azure, .btn-group .btn--alpha-style+.btn-sm--azure, .btn-group .tile-while .btn--alpha-orange+.btn-sm--azure, .tile-while .btn-group .btn--alpha-orange+.btn-sm--azure, .btn-group .btn--alpha+.btn-sm--azure, .btn-group .btn--link+.btn-sm--azure, .btn-group .btn--top+.btn-sm--azure, .btn-group .btn--light+.btn-sm--azure, .btn-group .btn--azure+.btn-sm--azure, .btn-group .btn-sm--azure+.btn-sm--azure, .btn-group .btn--sable+.btn-sm--azure, .btn-group .btn-sm--sable+.btn-sm--azure, .btn-group .btn--blanch+.btn-sm--azure, .btn-group .btn-sm--blanch+.btn-sm--azure, .btn-group .btn--orange+.btn-sm--azure, .btn-group .btn-sm--orange+.btn-sm--azure, .btn-group .btn-sm--link+.btn-sm--azure, .btn-group .btn+.btn--sable, .btn-group .tile-while:hover .btn--alpha-orange+.btn--sable, .tile-while:hover .btn-group .btn--alpha-orange+.btn--sable, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--sable, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--sable, .btn-group .btn--default-style+.btn--sable, .btn-group .btn--default+.btn--sable, .btn-group .btn--alpha-style+.btn--sable, .btn-group .tile-while .btn--alpha-orange+.btn--sable, .tile-while .btn-group .btn--alpha-orange+.btn--sable, .btn-group .btn--alpha+.btn--sable, .btn-group .btn--link+.btn--sable, .btn-group .btn--top+.btn--sable, .btn-group .btn--light+.btn--sable, .btn-group .btn--azure+.btn--sable, .btn-group .btn-sm--azure+.btn--sable, .btn-group .btn--sable+.btn--sable, .btn-group .btn-sm--sable+.btn--sable, .btn-group .btn--blanch+.btn--sable, .btn-group .btn-sm--blanch+.btn--sable, .btn-group .btn--orange+.btn--sable, .btn-group .btn-sm--orange+.btn--sable, .btn-group .btn-sm--link+.btn--sable, .btn-group .btn+.btn-sm--sable, .btn-group .tile-while:hover .btn--alpha-orange+.btn-sm--sable, .tile-while:hover .btn-group .btn--alpha-orange+.btn-sm--sable, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn-sm--sable, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn-sm--sable, .btn-group .btn--default-style+.btn-sm--sable, .btn-group .btn--default+.btn-sm--sable, .btn-group .btn--alpha-style+.btn-sm--sable, .btn-group .tile-while .btn--alpha-orange+.btn-sm--sable, .tile-while .btn-group .btn--alpha-orange+.btn-sm--sable, .btn-group .btn--alpha+.btn-sm--sable, .btn-group .btn--link+.btn-sm--sable, .btn-group .btn--top+.btn-sm--sable, .btn-group .btn--light+.btn-sm--sable, .btn-group .btn--azure+.btn-sm--sable, .btn-group .btn-sm--azure+.btn-sm--sable, .btn-group .btn--sable+.btn-sm--sable, .btn-group .btn-sm--sable+.btn-sm--sable, .btn-group .btn--blanch+.btn-sm--sable, .btn-group .btn-sm--blanch+.btn-sm--sable, .btn-group .btn--orange+.btn-sm--sable, .btn-group .btn-sm--orange+.btn-sm--sable, .btn-group .btn-sm--link+.btn-sm--sable, .btn-group .btn+.btn--blanch, .btn-group .tile-while:hover .btn--alpha-orange+.btn--blanch, .tile-while:hover .btn-group .btn--alpha-orange+.btn--blanch, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--blanch, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--blanch, .btn-group .btn--default-style+.btn--blanch, .btn-group .btn--default+.btn--blanch, .btn-group .btn--alpha-style+.btn--blanch, .btn-group .tile-while .btn--alpha-orange+.btn--blanch, .tile-while .btn-group .btn--alpha-orange+.btn--blanch, .btn-group .btn--alpha+.btn--blanch, .btn-group .btn--link+.btn--blanch, .btn-group .btn--top+.btn--blanch, .btn-group .btn--light+.btn--blanch, .btn-group .btn--azure+.btn--blanch, .btn-group .btn-sm--azure+.btn--blanch, .btn-group .btn--sable+.btn--blanch, .btn-group .btn-sm--sable+.btn--blanch, .btn-group .btn--blanch+.btn--blanch, .btn-group .btn-sm--blanch+.btn--blanch, .btn-group .btn--orange+.btn--blanch, .btn-group .btn-sm--orange+.btn--blanch, .btn-group .btn-sm--link+.btn--blanch, .btn-group .btn+.btn-sm--blanch, .btn-group .tile-while:hover .btn--alpha-orange+.btn-sm--blanch, .tile-while:hover .btn-group .btn--alpha-orange+.btn-sm--blanch, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn-sm--blanch, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn-sm--blanch, .btn-group .btn--default-style+.btn-sm--blanch, .btn-group .btn--default+.btn-sm--blanch, .btn-group .btn--alpha-style+.btn-sm--blanch, .btn-group .tile-while .btn--alpha-orange+.btn-sm--blanch, .tile-while .btn-group .btn--alpha-orange+.btn-sm--blanch, .btn-group .btn--alpha+.btn-sm--blanch, .btn-group .btn--link+.btn-sm--blanch, .btn-group .btn--top+.btn-sm--blanch, .btn-group .btn--light+.btn-sm--blanch, .btn-group .btn--azure+.btn-sm--blanch, .btn-group .btn-sm--azure+.btn-sm--blanch, .btn-group .btn--sable+.btn-sm--blanch, .btn-group .btn-sm--sable+.btn-sm--blanch, .btn-group .btn--blanch+.btn-sm--blanch, .btn-group .btn-sm--blanch+.btn-sm--blanch, .btn-group .btn--orange+.btn-sm--blanch, .btn-group .btn-sm--orange+.btn-sm--blanch, .btn-group .btn-sm--link+.btn-sm--blanch, .btn-group .btn+.btn--orange, .btn-group .tile-while:hover .btn--alpha-orange+.btn--orange, .tile-while:hover .btn-group .btn--alpha-orange+.btn--orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn--orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn--orange, .btn-group .btn--default-style+.btn--orange, .btn-group .btn--default+.btn--orange, .btn-group .btn--alpha-style+.btn--orange, .btn-group .tile-while .btn--alpha-orange+.btn--orange, .tile-while .btn-group .btn--alpha-orange+.btn--orange, .btn-group .btn--alpha+.btn--orange, .btn-group .btn--link+.btn--orange, .btn-group .btn--top+.btn--orange, .btn-group .btn--light+.btn--orange, .btn-group .btn--azure+.btn--orange, .btn-group .btn-sm--azure+.btn--orange, .btn-group .btn--sable+.btn--orange, .btn-group .btn-sm--sable+.btn--orange, .btn-group .btn--blanch+.btn--orange, .btn-group .btn-sm--blanch+.btn--orange, .btn-group .btn--orange+.btn--orange, .btn-group .btn-sm--orange+.btn--orange, .btn-group .btn-sm--link+.btn--orange, .btn-group .btn+.btn-sm--orange, .btn-group .tile-while:hover .btn--alpha-orange+.btn-sm--orange, .tile-while:hover .btn-group .btn--alpha-orange+.btn-sm--orange, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn-sm--orange, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn-sm--orange, .btn-group .btn--default-style+.btn-sm--orange, .btn-group .btn--default+.btn-sm--orange, .btn-group .btn--alpha-style+.btn-sm--orange, .btn-group .tile-while .btn--alpha-orange+.btn-sm--orange, .tile-while .btn-group .btn--alpha-orange+.btn-sm--orange, .btn-group .btn--alpha+.btn-sm--orange, .btn-group .btn--link+.btn-sm--orange, .btn-group .btn--top+.btn-sm--orange, .btn-group .btn--light+.btn-sm--orange, .btn-group .btn--azure+.btn-sm--orange, .btn-group .btn-sm--azure+.btn-sm--orange, .btn-group .btn--sable+.btn-sm--orange, .btn-group .btn-sm--sable+.btn-sm--orange, .btn-group .btn--blanch+.btn-sm--orange, .btn-group .btn-sm--blanch+.btn-sm--orange, .btn-group .btn--orange+.btn-sm--orange, .btn-group .btn-sm--orange+.btn-sm--orange, .btn-group .btn-sm--link+.btn-sm--orange, .btn-group .btn+.btn-sm--link, .btn-group .tile-while:hover .btn--alpha-orange+.btn-sm--link, .tile-while:hover .btn-group .btn--alpha-orange+.btn-sm--link, .btn-group .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange+.btn-sm--link, .tile-raw:not(:hover) .tile-while.active .btn-group .btn--alpha-orange+.btn-sm--link, .btn-group .btn--default-style+.btn-sm--link, .btn-group .btn--default+.btn-sm--link, .btn-group .btn--alpha-style+.btn-sm--link, .btn-group .tile-while .btn--alpha-orange+.btn-sm--link, .tile-while .btn-group .btn--alpha-orange+.btn-sm--link, .btn-group .btn--alpha+.btn-sm--link, .btn-group .btn--link+.btn-sm--link, .btn-group .btn--top+.btn-sm--link, .btn-group .btn--light+.btn-sm--link, .btn-group .btn--azure+.btn-sm--link, .btn-group .btn-sm--azure+.btn-sm--link, .btn-group .btn--sable+.btn-sm--link, .btn-group .btn-sm--sable+.btn-sm--link, .btn-group .btn--blanch+.btn-sm--link, .btn-group .btn-sm--blanch+.btn-sm--link, .btn-group .btn--orange+.btn-sm--link, .btn-group .btn-sm--orange+.btn-sm--link, .btn-group .btn-sm--link+.btn-sm--link {
+	margin-left: -1px;
+}
+
+.btn-group>.btn:not(:first-child):not(:last-child), .btn-group>.btn--default-style:not(:first-child):not(:last-child), .btn-group>.btn--default:not(:first-child):not(:last-child), .btn-group>.btn--alpha-style:not(:first-child):not(:last-child), .tile-while .btn-group>.btn--alpha-orange:not(:first-child):not(:last-child), .btn-group>.btn--alpha:not(:first-child):not(:last-child), .btn-group>.btn--link:not(:first-child):not(:last-child), .btn-group>.btn--top:not(:first-child):not(:last-child), .btn-group>.btn--light:not(:first-child):not(:last-child), .btn-group>.btn--azure:not(:first-child):not(:last-child), .btn-group>.btn-sm--azure:not(:first-child):not(:last-child), .btn-group>.btn--sable:not(:first-child):not(:last-child), .btn-group>.btn-sm--sable:not(:first-child):not(:last-child), .btn-group>.btn--blanch:not(:first-child):not(:last-child), .btn-group>.btn-sm--blanch:not(:first-child):not(:last-child), .btn-group>.btn--orange:not(:first-child):not(:last-child), .btn-group>.btn-sm--orange:not(:first-child):not(:last-child), .btn-group>.btn-sm--link:not(:first-child):not(:last-child) {
+	border-radius: 0;
+}
+
+
+.tile-raw {
+    position: relative;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.tile-while {
+    border-radius: 1px;
+    padding: 25px 0;
+}
+
+.tile-while .tile-while-vertical {
+    border-right: 1px solid RGBA(255, 255, 255, 0.1);
+}
+
+.tile-while .tile-title {
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.tile-while .tile-subtitle {
+    font-size: 14px;
+    line-height: 1;
+    color: #aaa;
+    margin-bottom: 28px;
+}
+
+.tile-while .tile-green {
+    color: #52BF4B;
+}
+
+.tile-while .tile-cry {
+    font: 48px/1 "Lato", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.icons--r-big {
+    background-position: -3px -933px;
+    width: 28px;
+    height: 37px;
+    margin-top: -9px;
+    color: black;
+}
+
+.tile-while .bg-info, .tile-while .bg-disable {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.bg-info {
+    color: #fff;
+    background-color: #24b2d8;
+}
+
+.bg-default, .bg-info {
+    line-height: 1.8;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+
+.bg-default, .bg-info {
+    line-height: 1.8;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+
+.tile-while .tile-info {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 23px;
+}
+
+.tile-while .tile-tool {
+    margin-top: 32px;
+    padding: 0 25px;
+}
+
+.btn--alpha-style, .tile-while .btn--alpha-orange, .btn--alpha {
+    border-color: RGBA(255, 255, 255, 0.3);
+}
+
+.btn--default-style, .btn--default, .btn--alpha-style, .tile-while .btn--alpha-orange, .btn--alpha, .btn--link, .btn--top {
+    font: 18px/1 "Lato", sans-serif;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 13px 22px 14px;
+}
+
+
+.tile-while:hover .icons--r-big {
+    background-position: -3px -933px;
+}
+
+.btn--orange-style:hover, .tile-while:hover .btn--alpha-orange:hover, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange:hover, .btn--orange:hover, .btn-sm--orange:hover, .btn--orange-style.active, .tile-while:hover .active.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .active.btn--alpha-orange, .active.btn--orange, .active.btn-sm--orange, .input-file:hover .btn--orange-style, .input-file:hover .tile-while:hover .btn--alpha-orange, .tile-while:hover .input-file:hover .btn--alpha-orange, .input-file:hover .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .input-file:hover .btn--alpha-orange, .input-file:hover .btn--orange, .input-file:hover .btn-sm--orange {
+    color: #171717;
+    background-color: #daa500;
+}
+
+.tile-while:hover .btn--alpha-orange:hover, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange:hover {
+    background-color: #FFCA28;
+}
+
+.btn--orange-style, .tile-while:hover .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .btn--orange, .btn-sm--orange {
+    color: #171717;
+    background-color: #ffc000;
+    font-family: 'RobotoLight',Arial,sans-serif;
+}
+
+.btn.btn-lg, .tile-raw:not(:hover) .tile-while.active .btn-lg.btn--alpha-orange, .btn-lg.btn--default-style, .btn-lg.btn--default, .btn-lg.btn--alpha-style, .tile-while .btn-lg.btn--alpha-orange, .btn-lg.btn--alpha, .btn-lg.btn--link, .btn-lg.btn--top, .btn-lg.btn--light, .btn-lg.btn--azure, .btn-lg.btn-sm--azure, .btn-lg.btn--sable, .btn-lg.btn-sm--sable, .btn-lg.btn--blanch, .btn-lg.btn-sm--blanch, .btn-lg.btn--orange, .btn-lg.btn-sm--orange, .btn-lg.btn-sm--link {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.tile-while:hover .tile-title, .tile-raw:not(:hover) .tile-while.active .tile-title {
+    color: #000;
+}
+
+.tile-while:hover .tile-cry, .tile-raw:not(:hover) .tile-while.active .tile-cry {
+    color: #000;
+}
+
+.tile-while:hover .tile-info, .tile-raw:not(:hover) .tile-while.active .tile-info {
+    color: #717171;
+}
+
+.active .icons--r-light {
+    background-position: -3px -970px;
+}
+
+.tile-raw {
+    position: relative;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.tile-col-3 {
+    width: 25%;
+}
+
+.tile-col-3 {
+    float: left;
+    text-align: center;
+    border: none;
+}
+
+.tile-while .tile-title {
+    font-size: 24px;
+    line-height: 1;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.tile-while .tile-subtitle {
+    font-size: 14px;
+    line-height: 1;
+    color: #aaa;
+    margin-bottom: 28px;
+}
+
+.tile-while .tile-green {
+    color: #52BF4B;
+}
+
+.tile-while .bg-info, .tile-while .bg-disable {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.bg-info {
+    color: #fff;
+    background-color: #24b2d8;
+}
+
+.bg-default, .bg-info {
+    line-height: 1.8;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+
+.bg-default, .bg-info {
+    line-height: 1.8;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+
+.tile-while .tile-info {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 23px;
+}
+
+.icons--r-light {
+    background-position: -15px -970px;
+    width: 10px;
+    height: 14px;
+    margin-top: -4px;
+}
+
+.tile-while .tile-tool {
+    margin-top: 32px;
+    padding: 0 25px;
+}
+
+.btn--alpha-style, .tile-while .btn--alpha-orange, .btn--alpha {
+    border-color: RGBA(255, 255, 255, 0.3);
+}
+
+.tile-while:hover .icons--r-big {
+    background-position: -3px -933px;
+}
+
+.btn--orange-style:hover, .tile-while:hover .btn--alpha-orange:hover, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange:hover, .btn--orange:hover, .btn-sm--orange:hover, .btn--orange-style.active, .tile-while:hover .active.btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .active.btn--alpha-orange, .active.btn--orange, .active.btn-sm--orange, .input-file:hover .btn--orange-style, .input-file:hover .tile-while:hover .btn--alpha-orange, .tile-while:hover .input-file:hover .btn--alpha-orange, .input-file:hover .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .input-file:hover .btn--alpha-orange, .input-file:hover .btn--orange, .input-file:hover .btn-sm--orange {
+    color: #1d1d1d;
+    background-color: #ffce36;
+}
+
+.tile-while:hover .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange:hover {
+    background-color: #ffd553;
+    box-shadow: 0 15px 50px -13px black;
+    cursor: pointer;
+}
+
+.btn--orange-style, .tile-while:hover .btn--alpha-orange, .tile-raw:not(:hover) .tile-while.active .btn--alpha-orange, .btn--orange, .btn-sm--orange {
+    color: #171717;
+    background-color: #ffc000;
+}
+
+.tile-while:hover, .tile-raw:not(:hover) .tile-while.active {
+    background-color: #ffffff;
+}
+
+.tile-while:hover .tile-title, .tile-raw:not(:hover) .tile-while.active .tile-title {
+    color: #000;
+}
+
+.tile-while:hover .tile-cry, .tile-raw:not(:hover) .tile-while.active .tile-cry {
+    color: #000;
+}
+
+.tile-while:hover .tile-info, .tile-raw:not(:hover) .tile-while.active .tile-info {
+    color: #717171;
+}
+
+.tile-while:hover .icons--r-light {
+    background-position: -3px -970px;
+}
+
+.tile-raw:hover .bg-info .icons--r-light {
+    background-position: -15px -970px; 
+}
+
+.active .icons--r-light {
+    background-position: -3px -970px;
+}
+
+.tile-endday {
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.tile-while .bg-disable, .tile-while .bg-info {
+    display: inline-block;
+    margin: 0 auto 23px;
+}
+
+.bg-info {
+    color: #fff;
+    background-color: #24b2d8;
+}
+
+.bg-default, .bg-info {
+    line-height: 1.8;
+    padding: 0 14px;
+    border-radius: 5px;
+}
+
+.tile-raw:not(:hover) .tile-while.active .tile-info, .tile-while:hover .tile-info {
+    color: #717171;
+}
+
+.tile-while .tile-info {
+    color: #000;
+    line-height: 1;
+    margin-bottom: 23px;
+}
+
+.tile-while:hover .tile-info .icons--r-light {
+    background-position: -3px -970px;
+}
+.tile-while {
+    margin: 0 10px;
+    background: white;
+    border-radius: 4px;
+    color: black!important;
+    border: 4px solid #ffca28;
+    box-sizing: content-box;
+    position: relative;
+}
+
+button.btn--alpha-orange.btn-lg {
+    background-color: #FFCA28;
+    font-family: 'RobotoLight',Arial,sans-serif;
+}
+.tile-info span.icons--r-light {
+    background-position: -3px -970px;
+}
+
+
+.tile-while:hover {
+    box-shadow: 0 20px 65px -18px #24b2d8;
+}
+
+.tile-col-3:last-child {}
+
+.tile-col-3:last-child .tile-while {
+    border: 4px solid #ff293d;
+}
+
+.tile-col-3:last-child .tile-while button.btn--alpha-orange.btn-lg {
+    background-color: #ff293d;
+}
+
+.tile-col-3:last-child .tile-while:hover button.btn--alpha-orange.btn-lg {
+    color: white;
+}

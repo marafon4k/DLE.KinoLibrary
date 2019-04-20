@@ -1,0 +1,1 @@
+[e:rating:kp]<h3 class="btl"><span id="news-title">[rating:kp:1] / [vote:kp: ]</span></h3>[/e:rating:kp]

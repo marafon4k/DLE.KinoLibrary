@@ -1,0 +1,290 @@
+/* ==================================================
+   Table of Content
+================================================== 
+ 
+    1. Universal
+	2. Navigation Bar
+    3. Main Heading
+    4. Timer
+    5. Subscribe Form
+    6. Footer
+
+
+==================================================
+   1. Universal
+================================================== */
+body{
+	background-image: url('../img/bg.jpg'); 
+	height: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    opacity: 0.9;
+}
+/* ==================================================
+   2. Navigation Bar
+================================================== */
+.navbar{
+	background: transparent !important;
+	border: 0px;
+	margin: 0px;
+	color: white !important;
+	margin-right: 50px;
+	margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.navbar-nav a{
+	color: white !important;
+	font-size: 18px;
+}
+.navbar-nav a:hover{
+	background: transparent !important;
+	border-bottom: 3px solid darkgoldenrod;
+	margin-bottom: -3px;
+
+}
+.navbar-inverse .navbar-toggle{
+    border-color: darkgoldenrod!important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: darkgoldenrod;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: saddlebrown;
+}
+.logo{
+	color: white !important;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+
+}
+.logo:hover{
+	color: white;
+}
+@media all and (max-width: 768px) {
+   .navbar{
+        margin-right: 0px;
+        margin-left: 0px;
+   } 
+    .navbar{
+        background: darkgoldenrod !important;
+    }
+    .navbar-nav a:hover{
+        background-color: saddlebrown !important;
+        border: none;
+        margin-bottom: 0px;
+    }
+}
+/* ==================================================
+   3. Main Heading
+================================================== */
+.main_heading{
+	text-align: center;
+	margin-top: 120px;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.sub_heading{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+	color: white;
+    margin-top: 10px;
+}
+@media all and (max-width: 480px) {
+    .main_heading{
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    .sub_heading{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+/* ==================================================
+   4. Timer
+================================================== */
+.timer{
+	margin-top: 50px;
+	color: white;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+.smalltext{
+	font-size: 18px; 
+    font-weight: lighter;
+    line-height: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+.box{
+	border-left: 3px solid white;
+}
+.box1{
+	border-left: 0px;
+}
+@media all and (max-width: 480px) {
+    .timer{
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: bold;
+    }
+    .smalltext{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: lighter;
+    }
+    .box{
+	   border-left: 2px solid white;
+    }
+    .box1{
+	   border-left: 0px;
+    }
+}
+/* ==================================================
+   5. Subscribe Form
+================================================== */
+.subscribe{
+    text-align: center;
+    color: snow;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe_form{
+	text-align: center;
+	margin-top:20px
+}
+
+.subscribe_form .email{
+	height: 35px;
+	width: 250px;
+	opacity: 0.7;
+	border-bottom-left-radius:5px; 
+	border-top-left-radius:5px; 
+	border: 0px;
+	padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe_form .submit{
+	height: 35px;
+	width: 100px;
+	margin-left: -4px;
+	background: darkgoldenrod;
+	border: 0px;
+	color: white;
+	border-top-right-radius:5px; 
+    font-family: 'Raleway', sans-serif;
+	border-bottom-right-radius:5px; 
+}
+.subscribe_form .submit:hover{
+    background-color: saddlebrown;
+}
+.msg{
+    width: 400px;
+    height: 50px;
+}
+@media all and (max-width: 480px) {
+    .subscribe_form .email{
+        width: 200px;
+    }
+    .subscribe_form .submit{
+        width: 100px;
+    }
+    .subscribe{
+        font-size: 16px;
+        margin-top: 60px;
+    }
+    .msg{
+        width: 300px;
+        height: 35px;
+        line-height: 5px;
+    }
+}
+/* ==================================================
+   6. Footer
+================================================== */
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.text{
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.text a{
+    color: darkkhaki;
+}
+.socialmedia ul{
+    margin: 10px 0 20px 0;
+}
+ .socialmedia ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+.socialmedia ul li a{
+    font-size: 36px;
+    color: #FFF;
+}
+.socialmedia ul li a:hover{
+    color: darkgoldenrod;
+}
+/* ==================================================
+   7. Dashboard
+================================================== */
+.subscribers{
+    color: white;
+}
+.subscribers p{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+}
+.subscribers .h1{
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+/* ==================================================
+   8. Login Page
+================================================== */
+.login{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius:5px; 
+	border: 0px;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.login_head{
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    margin-top: 120px; 
+    color: white;
+    text-align: center;
+}
+.login_btn{
+    background-color: darkgoldenrod;
+    color: white;
+}
+.login_btn:hover{
+    background-color: saddlebrown;
+    color: white;
+}
+.note{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}

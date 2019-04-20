@@ -1,0 +1,177 @@
+/* Кнопка */
+.great_btn {
+ border: 0;
+ padding: 9px 10px;
+ border-radius: 50px;
+ box-shadow: none;
+ -webkit-box-shadow: none;
+ color: #fff;
+ background-color: #25b059;
+}
+
+.great_btndelete {
+ background: linear-gradient(to bottom, #e34717 0%,#b15538 100%);
+ color: #fff;
+ font-size: 12px;
+ text-shadow: 0 1px 0 #757575;
+ padding: 4px 0 5px 0;
+ margin: 0;
+ cursor: pointer;
+ border: 0;
+ border-top: 1px solid #d22727;
+ border-right: 1px solid #d22727;
+ border-left: 1px solid #d22727;
+ border-bottom: 1px solid #d22727;
+ box-shadow: 0 -1px 0 #d22727, 0 1px 0 #fff;
+ width: 130px;
+ border-radius: 2px;
+}
+
+.great_btnsave {
+ background: linear-gradient(to bottom, #1301fd 0%,#1301fd 100%);
+ color: #fff;
+ font-size: 12px;
+ text-shadow: 0 1px 0 #757575;
+ padding: 4px 0 5px 0;
+ margin: 0;
+ cursor: pointer;
+ border: 0;
+ border-top: 1px solid #2213ea;
+ border-right: 1px solid #2213ea;
+ border-left: 1px solid #2213ea;
+ border-bottom: 1px solid #2213ea;
+ box-shadow: 0 -1px 0 #2213ea, 0 1px 0 #fff;
+ width: 130px;
+ border-radius: 2px;
+}
+
+
+.great_btnadmin {
+ background: linear-gradient(to bottom, #1725e1 0%,#2c37c2 100%);
+ color: #fff;
+ font-size: 12px;
+ text-shadow: 0 1px 0 #757575;
+ padding: 4px 0 5px 0;
+ margin: 0;
+ cursor: pointer;
+ border: 0;
+ border-top: 1px solid #333ba4;
+ border-right: 1px solid #333ba4;
+ border-left: 1px solid #333ba4;
+ border-bottom: 1px solid #333ba4;
+ box-shadow: 0 -1px 0 #333ba4, 0 1px 0 #fff;
+ width: 130px;
+ border-radius: 2px;
+}
+
+#torrents_preload{font-weight:bold;text-align:center;}
+#torrents_preload img{display:block;margin:7px auto;width:220px;}
+
+.all_tor1 {color: #333;font-size:14px;font-weight: normal;font-style: italic;}
+
+
+#trackers-block{padding-top:0;padding-bottom:5px;overflow:hidden !important;width:100%;margin:0 auto;position:relative;}
+#trackers-block a{color:#444 !important;width:82px;background-color:rgba(0, 0, 0, 0.04);border-radius:4px;-webkit-transition:all 0.06s;-moz-transition:all 0.06s;-ms-transition:all 0.06s;-o-transition:all 0.06s;transition:all 0.06s;line-height:30px;padding-left:27px;font-size:12px;float:left;text-decoration:none;padding-top:1px}
+#trackers-block li{float:left;margin-right:10px;list-style: none; cursor: pointer;}
+#trackers-block a:active{background-color:rgba(0, 0, 0, 0.15) !important}
+#trackers-block a:hover{background-color:rgba(0, 0, 0, 0.1)}
+#trackers-block ul li a .site_tor{position:absolute;margin-left:-21px;margin-top:6px;list-style: none;}
+.all_tor1 {color: #fff;font-size:14px;font-weight: normal;font-style: italic;}
+.all_tor{float:right;margin-top:-10px;}
+.all_tor a{float:left;background-color:#333;color:#fff;text-decoration:none !important;border-radius:3px;padding-left:6px;padding-right:6px;margin-left:0;margin-top:5px;font-weight:bold;font-size:11px;opacity:1}
+.site_tor.tracker_rutor{background-position:0px 0px}
+.site_tor.tracker_opensharing{background-position:-16px 0px}
+.site_tor.tracker3{background-position:-32px 0px}
+.site_tor.tracker_nnm_club{background-position:-48px 0px}
+.site_tor.tracker_rutracker{background-position:-64px 0px}
+.site_tor.tracker6{background-position:-80px 0px}
+.site_tor.tracker_kinozal{background-position:-96px 0px}
+.site_tor.tracker_rgfootball{background-position:-112px 0px}
+.site_tor.tracker_freerutor{background-position:-128px 0px}
+.site_tor.tracker_kickass{background-position:-144px 0px}
+.site_tor.tracker_limetorrents{background-position:-160px 0px}
+.site_tor.tracker_toloka{background-position:-176px 0px}
+.site_tor{cursor:pointer;-webkit-transition:all 0.1s;-moz-transition:all 0.1s;-ms-transition:all 0.1s;-o-transition:all 0.1s;transition:all 0.1s;width:16px;height:16px;background-image:url(../images/trackers.png);display:block;margin:0 auto}.site_tor:hover{opacity:0.7}
+
+
+.restable{width:100%;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.restable th, .restable td{padding:15px 6px;text-align:left;}
+#pselect {display: inline;padding: 5px 12px;background: #ebebeb;border-bottom: 1px solid rgba(0, 0, 0, 0.251);cursor: pointer;border-radius: 5px;color: #808080;text-shadow: white 0px 1px 2px;margin: 3px;font-size: 15px;}
+#pselect.active, #pselect:hover {background: #97d234 !important;border-bottom: 1px solid rgba(0, 0, 0, 0.251);text-shadow: 1px 1px 2px black;color: #fff !important;}
+
+.restable_h{
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.restable thead tr {
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	line-height:22px;
+    background-color:rgba(255,255,255,0.05)
+}
+
+.restable a{text-decoration:underline;color:#0066F0;}
+.restable a:hover{color:#444;}
+.restable tr:nth-child(2n){background-color:rgba(255,255,255,0.05);}
+.restable tr{background-color:rgba(255,255,255,0.02);}
+.restable td {
+	vertical-align:middle;
+	color: #e0e0e0;
+	font-size:13px;
+}
+.restable th{white-space: inherit;}
+.restable th > span { background: url(../images/nosorted.gif) 0px 50% no-repeat; padding-left: 8px; cursor: pointer;}
+.restable .headerSortUp > span { background: url(../images/down.gif) 0px 50% no-repeat;padding-left: 8px; cursor: pointer;}
+.restable .headerSortDown > span { background: url(../images/up.gif) 0px 50% no-repeat; padding-left: 8px; cursor: pointer;}
+
+/* Форма поиска 2 
+-------------------------------------- */
+.cf:before, .cf:after{content:"";display:table;}  
+.cf:after{clear:both;}
+.cf{zoom:1;}   
+.form-wrapper-tor {width: 580px;padding: 15px;margin: 10px auto 25px auto;background: #444;background: rgba(0,0,0,.2);-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;-moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);}   
+.form-wrapper-tor input {width: 460px;height: 20px;padding: 10px 5px;float: left;font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';border: 0;background: #eee;-moz-border-radius: 3px 0 0 3px;-webkit-border-radius: 3px 0 0 3px;border-radius: 3px 0 0 3px;}   
+.form-wrapper-tor input:focus {outline: 0;background: #fff;-moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;-webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;box-shadow: 0 0 2px rgba(0,0,0,.8) inset;}  
+.form-wrapper-tor input::-webkit-input-placeholder {color: #999;font-weight: normal;font-style: italic;}   
+.form-wrapper-tor input:-moz-placeholder {color: #999;font-weight: normal;font-style: italic;}   
+.form-wrapper-tor input:-ms-input-placeholder {color: #999;font-weight: normal;font-style: italic;}  
+.form-wrapper-tor button {overflow: visible;position: relative;float: right;border: 0;padding: 0;cursor: pointer;height: 40px;width: 110px;font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';color: #fff;text-transform: uppercase;background: #177aa9;-moz-border-radius: 0 3px 3px 0;-webkit-border-radius: 0 3px 3px 0;border-radius: 0 3px 3px 0;text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);}     
+.form-wrapper-tor button:hover{background: #177aa9;}    
+.form-wrapper-tor button:active, .form-wrapper-tor button:focus{background: #177aa9;}
+.form-wrapper-tor button:before {content: '';position: absolute;border-width: 8px 8px 8px 0;border-style: solid solid solid none;border-color: transparent #177aa9 transparent;top: 12px;left: -6px;}  
+.form-wrapper-tor button:hover:before{border-right-color: #177aa9;}  
+.form-wrapper-tor button:focus:before{border-right-color: #177aa9;}  
+.form-wrapper-tor button::-moz-focus-inner {border: 0;padding: 0;} 
+
+
+
+
+
+
+input.great_btn,
+button#download {
+	border-radius: 3px;
+	padding: 15px 30px;
+	margin: 15px;
+	background: #3a79ef;
+	background-repeat: repeat-x;
+	background-image: -webkit-linear-gradient(45deg, #2476d8, #24b2d8);
+	background-image: -o-linear-gradient(45deg, #2476d8, #24b2d8);
+	background-image: linear-gradient(45deg, #2476d8, #24b2d8);
+	transition: 0.5s ease-in-out
+}
+
+input.great_btn:hover,
+button#download:hover {
+	background: #3a79ef;
+	background-repeat: repeat-x;
+	background-image: -webkit-linear-gradient(45deg, #15529a, #24b2d8);
+	background-image: -o-linear-gradient(45deg, #15529a, #24b2d8);
+	background-image: linear-gradient(45deg, #15529a, #24b2d8)
+}
+#content{
+  display:none;
+}
+#content.show{
+  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
+}
